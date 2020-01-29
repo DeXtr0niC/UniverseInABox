@@ -1,0 +1,226 @@
+body {
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 13px;
+    text-align: center;
+    font-weight: lighter;
+    background-color: #000000;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#hinweis{
+  text-align: center;
+}
+#content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+#header {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    color: #188BC0;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    z-index: 1000;
+    text-shadow: 1px 1px 1px #000000;
+    margin: 0 auto;
+}
+
+.small {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+.big {
+    color: white;
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    margin: 0px;
+    padding: 0px 0px 6px 0px;
+    font-size: 51px;
+    line-height: 40px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+#pcontainer {
+    position: absolute;
+    bottom: 0%;
+    bottom: 30%;
+    width: 100%;
+}
+
+p:first-letter {
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify-all;
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    color: white;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    text-transform: lowercase;
+    line-height: 145%;
+    font-size: 12pt;
+    font-variant: small-caps;
+    width: 300px;
+}
+
+.smallquote {
+    text-align: justify;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 10pt;
+    line-height: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #188BC0;
+}
+
+#content {
+    font-size: 13px;
+    text-align: justify;
+}
+
+#navigation {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    background: #25A6E1;
+    background: -moz-linear-gradient(top, #25A6E1 0%, #188BC0 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #25A6E1), color-stop(100%, #188BC0));
+    background: -webkit-linear-gradient(top, #25A6E1 0%, #188BC0 100%);
+    background: -o-linear-gradient(top, #25A6E1 0%, #188BC0 100%);
+    background: -ms-linear-gradient(top, #25A6E1 0%, #188BC0 100%);
+    background: linear-gradient(top, #25A6E1 0%, #188BC0 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#25A6E1', endColorstr='#188BC0', GradientType=0);
+    padding: 8px 13px;
+    color: #fff;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1px solid #1A87B9;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+.back {
+    color: white;
+    text-decoration: none;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.dark {
+    background: rgba(47, 62, 106, 0.95);
+    border: 1px solid rgba(47, 62, 106, 1);
+}
+
+.dark2 {
+    background: rgba(47, 62, 106, 0.95);
+    border: 1px solid rgba(47, 62, 106, 1);
+}
+.hover {
+    background: rgba(47, 62, 106, 0.95);
+    border: 1px solid rgba(47, 62, 106, 1);
+}
+
+
+#information {
+    border-radius: 4px;
+    font-family: 'Droid Serif', sans-serif;
+    font-size: 10pt;
+    width: 250px;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+
+#information .top {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    height: 95px;
+    width: 100%;
+    background-color: rgba(47, 62, 106, 0.95);
+    border-radius: 4px 4px 0 0;
+    font-size: 16pt;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+
+#information .circle {
+    font-weight: bold;
+    width: 80px;
+    height: 56px;
+    padding-top: 24px;
+    border-radius: 80px;
+    font-size: 9pt;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+    background: #25A6E1;
+    margin-left: 85px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: inset 0px 0px 60px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: inset 0px 0px 60px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0px 0px 60px 0px rgba(0, 0, 0, 0.4);
+}
+
+#information .line {
+    height: 5px;
+    width: 62px;
+    margin: 0 auto;
+    background-image: url('../textures/arrow.png');
+}
+
+#values {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#values .value,
+#values .description {
+    line-height: 20px;
+    color: #777870;
+}
+
+#values .value {
+    font-weight: bold;
+}
+
+.quote {
+    color: #777870;
+    font-size: 9pt;
+    text-align: right;
+}
+
+.quote.bold {
+    font-size: 9pt;
+    font-weight: bold;
+    text-align: right;
+    text-align: justify;
+}
